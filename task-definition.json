@@ -1,0 +1,36 @@
+{
+    "family": "ai-diary-task",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": ["FARGATE"],
+    "cpu": "256",
+    "memory": "512",
+    "executionRoleArn": "arn:aws:iam::515966503406:role/ecsTaskExecutionRole",
+    "containerDefinitions": [
+      {
+        "name": "ai-diary-container",
+        "image": "515966503406.dkr.ecr.ap-northeast-1.amazonaws.com/ai-diary:latest",
+        "portMappings": [
+          {
+            "containerPort": 3000,
+            "hostPort": 3000,
+            "protocol": "tcp"
+          }
+        ],
+        "essential": true,
+        "environment": [
+          {
+            "name": "NODE_ENV",
+            "value": "production"
+          }
+        ],
+        "logConfiguration": {
+          "logDriver": "awslogs",
+          "options": {
+            "awslogs-group": "/ecs/ai-diary-task",
+            "awslogs-region": "ap-northeast-1",
+            "awslogs-stream-prefix": "ecs"
+          }
+        }
+      }
+    ]
+  }
