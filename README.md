@@ -1,40 +1,25 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI 日記アプリケーション
 
-## Getting Started
+## プロジェクト概要
 
-First, run the development server:
+AI 日記は、AI を活用した高度な個人用ジャーナリングプラットフォームです。ユーザーが日記を書くと、AI が文章の添削、感情分析、洞察の提供を行い、自己成長と内省をサポートします。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 主要機能
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ユーザー認証・管理
+- 日記エントリーの作成・編集・削除
+- AI 文章添削機能
+- 感情分析と可視化
+- AI による洞察と質問生成
+- トピック分析と自動タグ付け
+- パーソナライズされたアドバイスと目標設定
+- データ可視化とインサイトダッシュボード
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 技術スタック
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-# ai-diary
->>>>>>> 867be02379f39f86098e4cdbb47aa65fc3326d58
+- フロントエンド: React, Next.js, TypeScript, Tailwind CSS
+- バックエンド: Next.js API Routes
+- データベース: Supabase (PostgreSQL)
+- AI/ML: OpenAI GPT API, TensorFlow.js
+- インフラストラクチャ: AWS (ECS/Fargate, S3)
+- その他: Docker, GitHub Actions (CI/CD)
