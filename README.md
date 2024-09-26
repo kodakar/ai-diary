@@ -18,7 +18,7 @@ AI 日記は、AI を活用した高度な個人用ジャーナリングプラ�
 ## 技術スタック
 
 - フロントエンド: React, Next.js, TypeScript, Tailwind CSS
-- バックエンド: Next.js API Routes
+- バックエンド: Next.js App Router
 - データベース: Supabase (PostgreSQL)
 - AI/ML: OpenAI GPT API
 - インフラストラクチャ: AWS (ECS/Fargate)
