@@ -20,6 +20,6 @@ AI 日記は、AI を活用した高度な個人用ジャーナリングプラ�
 - フロントエンド: React, Next.js, TypeScript, Tailwind CSS
 - バックエンド: Next.js API Routes
 - データベース: Supabase (PostgreSQL)
-- AI/ML: OpenAI GPT API, TensorFlow.js
-- インフラストラクチャ: AWS (ECS/Fargate, S3)
+- AI/ML: OpenAI GPT API
+- インフラストラクチャ: AWS (ECS/Fargate)
 - その他: Docker, GitHub Actions (CI/CD)
